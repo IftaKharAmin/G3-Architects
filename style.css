@@ -1,0 +1,49 @@
+/* share style */
+/* dark02 */
+.text-gray{
+    color: rgb(66, 66, 66);
+}
+/* dark 03 */
+.text-light-gray{
+    color: #727272;
+}
+
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1) ;
+}
+/* nav style */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0px  auto;
+}
+.banner{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    
+}
+ div{
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+ }
